@@ -2,7 +2,7 @@
 
 class ShoppingCart{
   
-    private static $numeroSerie;
+
     public static  $nbPaniers = 0;
     private  $id = 0;
 
@@ -10,9 +10,7 @@ class ShoppingCart{
         self::$nbPaniers++;
         $this->id = self::$nbPaniers;
       }
-      public function getNumeroSerie(){
-        return $this->numeroSerie;
-    }
+
 
     public function getId(){
         return $this->id;
