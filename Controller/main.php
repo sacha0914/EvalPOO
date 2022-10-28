@@ -19,7 +19,6 @@ $shoppingCart->addItem($item);
 $shoppingCart->addItem($chewingGum);
 $shoppingCart->addItem($freshItem);
 $shoppingCart->toStirng();
-// echo '<br>';
 
 
 
