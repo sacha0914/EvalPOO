@@ -2,6 +2,7 @@
 
 class ShoppingCart{
   
+
     public static  $nbPaniers = 0;
     private  $id = 0;
 
@@ -9,6 +10,7 @@ class ShoppingCart{
         self::$nbPaniers++;
         $this->id = self::$nbPaniers;
       }
+
 
     public function getId(){
         return $this->id;
